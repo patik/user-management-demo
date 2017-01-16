@@ -2,8 +2,6 @@
 
 **[View a live demo](https://patik.github.io/user-management-demo)**
 
-## How to run
-
 1. Clone this repo
 1. `npm install`
 1. Run `npm start`
@@ -30,7 +28,7 @@ Command|Description
 
 ### API
 
-The following methods are callable on `window.DataStore` or any instance of `Storage`:
+The following methods are callable on `window.DataStore` or any instance of [`Storage`](https://github.com/patik/user-management-demo/blob/master/src/utilities/Storage.js):
 
 - `getUser(String userId)`
     + Returns a user object, or a default/empty object if no ID is provided
